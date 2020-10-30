@@ -9,4 +9,6 @@ I often need to write formulas and other work using a pencil on paper. However, 
 Calling `./hwcat pic1.jpg pic2.jpg pic3.jpg paper.pdf` will rotate pictures `pic1`, `pic2`, and `pic3` by 90 degrees clockwise, and concatenate them together into a pdf file called `paper.pdf`.
 
 ## Dependencies
-Requires `convert`. Install via `dnf install convert`, `apt install convert` etc. depending on your distro.
+Requires Image Magick. Install via `dnf install ImageMagick` for fedora, `apt install imagemagick` for debian/ubuntu. It might be different depending on your distro.
+
+Tested on Fedora 31.
