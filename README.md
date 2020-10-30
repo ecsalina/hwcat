@@ -6,7 +6,7 @@ I often need to write formulas and other work using a pencil on paper. However, 
 `hwcat` is short for "homework cat," cat here referring to the linux bash command `cat`.
 
 ## Usage
-Calling `hwcat pic1.jpg pic2.jpg pic3.jpg paper.pdf` will rotate pictures `pic1`, `pic2`, and `pic3` by 90 degrees clockwise, and concatenate them together into a pdf file called `paper.pdf`.
+Calling `./hwcat pic1.jpg pic2.jpg pic3.jpg paper.pdf` will rotate pictures `pic1`, `pic2`, and `pic3` by 90 degrees clockwise, and concatenate them together into a pdf file called `paper.pdf`.
 
 ## Dependencies
 Requires `convert`. Install via `dnf install convert`, `apt install convert` etc. depending on your distro.
