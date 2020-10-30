@@ -8,4 +8,5 @@ do
 done
 convert "${vars[@]}" $1
 rm "${vars[@]}"
+unset vars
 unset i
