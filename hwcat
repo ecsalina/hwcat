@@ -1,0 +1,11 @@
+i=0
+while (( $# > 1 ))
+do
+  convert -rotate 90 $1 "${1}_rotated"
+  vars[i]="${1}_rotated"
+  ((i++))
+  shift
+done
+convert "${vars[@]}" $1
+rm "${vars[@]}"
+unset i
